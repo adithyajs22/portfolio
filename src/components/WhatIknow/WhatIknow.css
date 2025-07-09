@@ -1,0 +1,24 @@
+
+
+.what-i-know {
+  padding: 3rem 2rem;
+  background-color: #0D0D11;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.what-i-know h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #FF6B6B;
+}
+
+.what-i-know p {
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  line-height: 1.8;
+  color: #ddd;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+

@@ -1,0 +1,71 @@
+#skills {
+  padding: 0rem 4rem;
+  padding-top:0.1rem;
+}
+
+#skills h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #f2f2f2;
+}
+
+.skills-marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 1rem 0;
+  position: relative;
+  scrollbar-width: none;
+  margin-bottom: 2rem;
+  flex:1;
+}
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.skills-marquee::-webkit-scrollbar {
+  display: none;
+}
+
+.marquee-content {
+  display: inline-block;
+  animation: scroll-left 20s linear infinite;
+}
+
+.marquee-content span {
+  display: inline-block;
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #FF6B6B;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+.skills-marquee::before,
+.skills-marquee::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 2;
+}
+
+.skills-marquee::before {
+  left: 0;
+  background: linear-gradient(to right, #0d0d11, transparent);
+}
+
+.skills-marquee::after {
+  right: 0;
+  background: linear-gradient(to left, #0d0d11, transparent);
+}
