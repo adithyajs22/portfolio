@@ -69,6 +69,12 @@
 
 .project-links {
   margin-top: 1rem;
+   display: flex;
+   padding-right: 2rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+     flex-wrap: wrap;
+  justify-content: flex-start;  
 }
 
 .project-links a {
@@ -79,8 +85,11 @@
   font-size: 0.9rem;
   border: 1px solid #7ecfff;
   padding: 0.4rem 0.9rem;
+  min-width: 120px; 
   border-radius: 8px;
   transition: all 0.2s ease-in-out;
+  flex: 1 1 auto;   
+  
 }
 
 .project-links a:hover {
@@ -94,4 +103,14 @@
 .project-card:hover {
   transform: scale(1.02);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 480px) {
+  .project-links {
+     flex-direction: column; 
+    align-items: stretch;
+  }
+
+  .project-links a {
+    width: 100%;             
+  }
 }

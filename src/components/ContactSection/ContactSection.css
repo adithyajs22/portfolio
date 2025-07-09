@@ -37,7 +37,7 @@
   font-size: 1rem;
   text-decoration: none;
   border-radius: 5px;
-  white-space: nowrap; /* Prevent text from wrapping */
+  white-space: nowrap;
 }
 
 
@@ -50,6 +50,7 @@
 
 .btn-filled:hover {
   background-color: #ff5252;
+  color:white;
 }
 
 .btn-outlined {

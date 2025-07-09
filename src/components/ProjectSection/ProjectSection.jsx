@@ -28,7 +28,7 @@ const ProjectSection = () => {
                 )}
                  {project.live && (
                 <a href={project.live} target="_blank" rel="noreferrer">
-                 Live Demo
+                 View Project
                 </a>
                 )}  
               </div>
