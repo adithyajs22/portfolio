@@ -5,33 +5,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0D0D11;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
 a {
   text-decoration: none;
   color: inherit;
 }
 
-body {
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background-color: #0D0D11; 
-  color: white;
-  font-family: 'Poppins', sans-serif;
+.app {
+  position: relative;
+  z-index: 1;
 }
+
+/* Glowing Effects */
 .right-glow {
   position: fixed;
   top: 40%;
   right: -150px;
   width: 600px;
   height: 600px;
-  
   background: radial-gradient(circle, rgba(8, 8, 9, 0.715), transparent 70%);
   filter: blur(120px);
   z-index: 0;
   pointer-events: none;
+  animation: slow-float 15s ease-in-out infinite;
   transition: opacity 0.3s ease;
 }
-
 
 body::before {
   content: '';
@@ -44,6 +53,7 @@ body::before {
   z-index: 0;
   filter: blur(80px);
 }
+
 .blob-left {
   position: fixed;
   bottom: 20%;
@@ -55,24 +65,15 @@ body::before {
   z-index: 0;
   pointer-events: none;
 }
-.app {
-  position: relative;
-  z-index: 1; }
 
-
-html {
-  scroll-behavior: smooth;
-}
+/* Float Animation */
 @keyframes slow-float {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(30px); }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(30px); }
   100% { transform: translateY(0); }
 }
 
-.right-glow {
-  animation: slow-float 15s ease-in-out infinite;
-}
-
+/* Global Responsive Typography */
 @media (max-width: 768px) {
   section {
     padding: 2rem 1rem;

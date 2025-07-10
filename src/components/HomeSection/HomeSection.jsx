@@ -14,8 +14,8 @@ const HomeSection = () => {
       <p>I’m currently a Computer Science student passionate about building clean, accessible web experiences.</p>
     <p>I design and build modern web apps with React, Vite, and a focus on usability.</p>
       <div className='herocontent'>
-       <a className="btn-outlined" href="/resume.pdf" >My Resume</a>
-       <a className="btn-filled" href="#contact">Got a project?</a>
+       <a className="btn-outlined" href="/adithyaResume.pdf" target="_blank" >My Resume</a>
+       <a className="btn-filled" href="#contacts">Got a project?</a>
       </div>
       <div className='hero-icons'>
         <a className="githublogo" href="https://github.com/adithyajs22"target='_blank'>

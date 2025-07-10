@@ -1,12 +1,18 @@
 #skills {
-  padding: 0rem 4rem;
-  padding-top:0.1rem;
+  padding: 2rem 4rem;
 }
 
 #skills h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: #f2f2f2;
+  text-align: center;
+}
+
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
 }
 
 .skills-marquee {
@@ -14,14 +20,9 @@
   white-space: nowrap;
   padding: 1rem 0;
   position: relative;
-  scrollbar-width: none;
   margin-bottom: 2rem;
-  flex:1;
-}
-.section-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
+  flex: 1;
+  scrollbar-width: none;
 }
 
 .skills-marquee::-webkit-scrollbar {
@@ -50,6 +51,7 @@
     transform: translateX(-50%);
   }
 }
+
 .skills-marquee::before,
 .skills-marquee::after {
   content: "";
@@ -68,4 +70,15 @@
 .skills-marquee::after {
   right: 0;
   background: linear-gradient(to left, #0d0d11, transparent);
+}
+
+@media (max-width: 768px) {
+  #skills {
+    padding: 2rem 1rem;
+  }
+
+  .marquee-content span {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
 }

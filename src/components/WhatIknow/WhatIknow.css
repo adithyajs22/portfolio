@@ -1,5 +1,3 @@
-
-
 .what-i-know {
   padding: 3rem 2rem;
   background-color: #0D0D11;
@@ -8,17 +6,44 @@
 }
 
 .what-i-know h2 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 1rem;
   color: #FF6B6B;
+  font-weight: 600;
 }
 
 .what-i-know p {
   max-width: 700px;
-  margin: 0 auto 1rem;
+  margin: 0 auto;
   line-height: 1.8;
-  color: #ddd;
+  color: #ccc;
   font-weight: 300;
   font-size: 1.1rem;
+  padding: 0 1rem;
 }
 
+@media (max-width: 768px) {
+  .what-i-know {
+    padding: 2rem 1rem;
+  }
+
+  .what-i-know h2 {
+    font-size: 1.8rem;
+  }
+
+  .what-i-know p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .what-i-know h2 {
+    font-size: 1.6rem;
+  }
+
+  .what-i-know p {
+    font-size: 0.95rem;
+    padding: 0;
+  }
+}
