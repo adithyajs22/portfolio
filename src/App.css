@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   
 }
 
 html {
@@ -34,23 +35,23 @@ a {
   right: -150px;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(8, 8, 9, 0.715), transparent 70%);
+  background: radial-gradient(circle, rgba(3, 192, 13, 0.715), transparent 70%);
   filter: blur(120px);
-  z-index: 0;
+  z-index: 2;
   pointer-events: none;
   animation: slow-float 15s ease-in-out infinite;
   transition: opacity 0.3s ease;
 }
 
-body::before {
+body::after {
   content: '';
   position: fixed;
   top: 20%;
   right: -10%;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(238, 142, 74, 0.633), transparent 70%);
-  z-index: 0;
+  background: radial-gradient(circle, #0f90ec90, transparent 70%);
+  z-index: 1;
   filter: blur(80px);
 }
 
@@ -60,20 +61,18 @@ body::before {
   left: -100px;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, #101f2a90, transparent);
+  background: radial-gradient(circle, #0f90ec90, transparent);
   filter: blur(100px);
-  z-index: 0;
+  z-index: -2;
   pointer-events: none;
 }
 
-/* Float Animation */
 @keyframes slow-float {
   0%   { transform: translateY(0); }
   50%  { transform: translateY(30px); }
   100% { transform: translateY(0); }
 }
 
-/* Global Responsive Typography */
 @media (max-width: 768px) {
   section {
     padding: 2rem 1rem;
