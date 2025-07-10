@@ -14,7 +14,7 @@ const Navbar = () => {
       
        <a className={styles.projects}  href="#projects">Projects</a>
        <a className={styles.contact}href="#contacts">Contact</a>
-       <a className={styles.resume} href='./adithyaResume'>Resume</a>
+       <a className={styles.resume} href='/resume.pdf' download> Download Resume</a>
        </div>
     </div>
     

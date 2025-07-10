@@ -66,6 +66,16 @@
   left: 0;
   background: linear-gradient(to right, #0d0d11, transparent);
 }
+.skills-marquee {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: 2rem 1rem;
+  }
+}
 
 .skills-marquee::after {
   right: 0;

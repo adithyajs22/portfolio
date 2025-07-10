@@ -51,21 +51,16 @@
   align-items: center;
 }
 
-/* 🔧 Responsive navbar */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
+    flex-direction: row; /* keep horizontal */
+    justify-content: space-between;
     padding: 1rem;
-    height: auto;
   }
-
   .right {
-    margin-top: 0.5rem;
-    flex-direction: column;
+    flex-direction: row; 
     gap: 1rem;
   }
-
-  .home {
-    font-size: 1.8rem;
-  }
 }
+
+
