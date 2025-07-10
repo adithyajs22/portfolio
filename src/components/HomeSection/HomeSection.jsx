@@ -5,7 +5,7 @@ const HomeSection = () => {
   return (
     <section id = "home" className='hero'>
       <div className="profile-wrapper">
-        <img src='./me.jpg' className='profile'></img>
+        <img src='/me.jpg' className='profile'></img>
       </div>
     <div className="hero-content">
       <h1>Hello</h1>
