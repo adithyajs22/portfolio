@@ -5,7 +5,7 @@ import './ProjectSection.css';
 
 const ProjectSection = () => {
   return (
-    <section id="projects" className="project-section" data-aos="flip-up" >
+    <section id="projects" className="project-section"  >
       <h2>Projects</h2>
       
       <div className="project-grid">
