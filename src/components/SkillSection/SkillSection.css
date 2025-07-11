@@ -1,6 +1,9 @@
 #skills {
   padding: 2rem 4rem;
+  background-color: #0D0D11; /* Ensure it's same as body */
+  width: 100%;
 }
+
 
 #skills h2 {
   font-size: 1.8rem;
@@ -69,11 +72,13 @@
 .skills-marquee {
   overflow: hidden;
   width: 100%;
+   background-color: #0D0D11;
 }
 
 @media (max-width: 768px) {
   .section-wrapper {
     padding: 2rem 1rem;
+    width:100%;
   }
 }
 

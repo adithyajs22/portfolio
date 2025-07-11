@@ -46,7 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-right: 2rem;
+  padding: 1rem;
 }
 
 .hero-content h1 {
@@ -135,22 +135,30 @@
   z-index: 3;
   opacity: 0.4;
 }
-
-/* 🔧 Responsive Design */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     padding: 2rem 1rem;
     text-align: center;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .profile-wrapper {
+    padding: 1rem;
+    max-width: 100%;
+    overflow: hidden;
   }
 
   .profile {
-    width: 180px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
   }
 
   .hero-content {
     align-items: center;
-    padding-right: 0;
+    padding: 1rem;
   }
 
   .hero-content h1 {

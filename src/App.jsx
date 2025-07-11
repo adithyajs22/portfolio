@@ -20,7 +20,7 @@ useEffect(() => {
    <div className="right-glow"></div>
       <div className="blob-left"></div>
 
-      <div className="app">
+     <div className="app-container">
        <Navbar/>
        <HomeSection id ="home"/>
        <SkillSection id = "skills"/>

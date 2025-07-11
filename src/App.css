@@ -4,10 +4,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
   scroll-behavior: smooth;
+}
+.app-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  
 }
 
 body {
@@ -16,6 +23,7 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  
 }
 
 a {
@@ -27,10 +35,7 @@ section {
   padding: 4rem 2rem;
 }
 
-.app {
-  position: relative;
-  z-index: 1;
-}
+
 
 /* Floating Glows */
 .right-glow {
@@ -39,9 +44,9 @@ section {
   right: -150px;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(3, 161, 192, 0.715), transparent 70%);
+  background: radial-gradient(circle, rgba(27, 3, 69, 0.715), transparent 70%);
   filter: blur(120px);
-  z-index:-1;
+  z-index:1;
   pointer-events: none;
   animation: slow-float 15s ease-in-out infinite;
   transition: opacity 0.3s ease;
@@ -55,7 +60,7 @@ section {
   height: 300px;
   background: radial-gradient(circle, #0f90ec90, transparent);
   filter: blur(100px);
-  z-index: -1;
+  z-index: 2;
   pointer-events: none;
 }
 
@@ -110,4 +115,9 @@ section {
     flex-wrap: wrap;
     justify-content: center;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
