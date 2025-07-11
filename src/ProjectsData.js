@@ -37,7 +37,7 @@ const projects = [
     description: 'Personal portfolio built using React and Vite, fully responsive and accessible.',
     tech: ['React', 'Vite', 'CSS Modules'],
     github: 'https://github.com/adithyajs22/portfolio',
-    live: 'https://portfolio-brown-five-52.vercel.app/',
+    live: 'https://adithyajs.vercel.app/',
   }
 ];
 
