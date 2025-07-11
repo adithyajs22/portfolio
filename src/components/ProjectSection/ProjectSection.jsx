@@ -5,7 +5,7 @@ import './ProjectSection.css';
 
 const ProjectSection = () => {
   return (
-    <section id="projects" className="project-section"  >
+    <section id="projects" className="project-section" data-aos="zoom-in-down" >
       <h2>Projects</h2>
       
       <div className="project-grid">

@@ -2,7 +2,8 @@ import React from 'react'
 import "./SkillSection.css"
 const SkillSection = () => {
   return (
-    <section id ="skills" className="section-wrapper">
+    <section id ="skills" data-aos="fade-left"
+     data-aos-anchor-placement="center-center" className="section-wrapper">
   
    <div> 
     <h2>Frontend</h2>
