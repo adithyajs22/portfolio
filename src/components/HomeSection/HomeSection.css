@@ -139,7 +139,7 @@
   .hero {
     flex-direction: column;
     padding: 2rem 1rem;
-    padding-top: 10rem;
+    padding-top: 8rem;
     text-align: center;
     width: 100%;
     overflow-x: hidden;
@@ -147,7 +147,6 @@
 
  .profile-wrapper {
     border-radius: 0; 
-   padding-top:5rem;
     background: none; 
   }
 
