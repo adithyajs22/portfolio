@@ -146,14 +146,14 @@
 
  .profile-wrapper {
     border-radius: 0; 
-   
+   padding-top: 2rem;
     background: none; 
   }
 
   .profile {
     width: 180px;
     border-radius: 12px; 
-    padding-top: 2rem;
+    
   padding-bottom: 0;
   }
 
