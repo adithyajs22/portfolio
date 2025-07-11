@@ -145,9 +145,9 @@
   }
 
  .profile-wrapper {
-    border-radius: 0; /* or 12px if you want slightly rounded */
-    padding: 0;
-    background: none; /* remove radial glow behind */
+    border-radius: 0; 
+    padding-top: 2rem;
+    background: none; 
   }
 
   .profile {
