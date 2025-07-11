@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   
 }
 
 html {
@@ -16,6 +15,7 @@ body {
   color: white;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 a {
@@ -23,24 +23,50 @@ a {
   color: inherit;
 }
 
+section {
+  padding: 4rem 2rem;
+}
+
 .app {
   position: relative;
   z-index: 1;
 }
 
+/* Floating Glows */
+.right-glow {
+  position: fixed;
+  top: 40%;
+  right: -150px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(3, 161, 192, 0.715), transparent 70%);
+  filter: blur(120px);
+  z-index:-1;
+  pointer-events: none;
+  animation: slow-float 15s ease-in-out infinite;
+  transition: opacity 0.3s ease;
+}
 
+.blob-left {
+  position: fixed;
+  bottom: 20%;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #0f90ec90, transparent);
+  filter: blur(100px);
+  z-index: -1;
+  pointer-events: none;
+}
 
-
-
-
-
-
+/* Float Animation */
 @keyframes slow-float {
-  0%   { transform: translateY(0); }
-  50%  { transform: translateY(30px); }
+  0% { transform: translateY(0); }
+  50% { transform: translateY(30px); }
   100% { transform: translateY(0); }
 }
 
+/* Responsive Breakpoints */
 @media (max-width: 768px) {
   section {
     padding: 2rem 1rem;
@@ -56,5 +82,32 @@ a {
 
   p {
     font-size: 1rem;
+  }
+
+  .right-glow,
+  .blob-left {
+    display: none;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .right {
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
