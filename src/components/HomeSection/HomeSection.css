@@ -139,6 +139,7 @@
   .hero {
     flex-direction: column;
     padding: 2rem 1rem;
+    padding-top: 6rem;
     text-align: center;
     width: 100%;
     overflow-x: hidden;
@@ -146,20 +147,18 @@
 
  .profile-wrapper {
     border-radius: 0; 
-   padding-top: 2rem;
+   padding:0;
     background: none; 
   }
 
   .profile {
     width: 180px;
     border-radius: 12px; 
-    
-  padding-bottom: 0;
   }
 
   .hero-content {
     align-items: center;
-    padding: .5rem;
+    padding: 1rem;
   }
 
   .hero-content h1 {
