@@ -144,16 +144,15 @@
     overflow-x: hidden;
   }
 
-  .profile-wrapper {
-    padding: 1rem;
-    max-width: 100%;
-    overflow: hidden;
+ .profile-wrapper {
+    border-radius: 0; /* or 12px if you want slightly rounded */
+    padding: 0;
+    background: none; /* remove radial glow behind */
   }
 
   .profile {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
+    width: 180px;
+    border-radius: 12px; 
   }
 
   .hero-content {

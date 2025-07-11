@@ -53,9 +53,18 @@
 
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: row; /* keep horizontal */
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     padding: 1rem;
+    text-align: center;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 0.5rem;
   }
   .right {
     flex-direction: row; 
