@@ -138,7 +138,7 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    padding: 2rem 1rem;
+     padding-top: 6rem;
     text-align: center;
     width: 100%;
     overflow-x: hidden;
@@ -154,11 +154,12 @@
     width: 180px;
     border-radius: 12px; 
     padding-top: 2rem;
+    padding-bottom: 0rem;
   }
 
   .hero-content {
     align-items: center;
-    padding: 1rem;
+    padding: .5rem;
   }
 
   .hero-content h1 {
