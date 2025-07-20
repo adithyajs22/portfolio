@@ -10,6 +10,8 @@ const projects = [
     title: 'Netflix Clone',
     description: 'Movie streaming UI with search, trending, and category filtering using TMDB API.',
     tech: ['React', 'Axios', 'TMDB API'],
+    github:'https://github.com/adithyajs22/NetflixClone/tree/main/src',
+    live:"https://netflix-clone-adithya-jss-projects.vercel.app/"
 
   },
   {
