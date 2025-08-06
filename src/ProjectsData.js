@@ -35,6 +35,13 @@ const projects = [
     github: '',
   },
   {
+    title: ' Responsive College Website',
+    description: 'Developed a responsive and user-friendly college website for College of Engineering Perumon,featuring adaptive design for mobile and desktop devices ',
+    tech: ['HTML', 'CSS'],
+    github: 'https://github.com/adithyajs22/College_website',
+    live: 'https://adithyajs22.github.io/College_website/',
+  },
+  {
     title: 'Portfolio Website',
     description: 'Personal portfolio built using React and Vite, fully responsive and accessible.',
     tech: ['React', 'Vite', 'CSS Modules'],
