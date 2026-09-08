@@ -128,16 +128,17 @@
 
 .right-floating-label {
   position: absolute;
-  right: 8px;
+  right: -56px;
   top: 50%;
-  transform: translateY(-50%) rotate(90deg);
+  transform: rotate(90deg) translateY(-50%);
   transform-origin: center;
   color: #ff5f5f;
   font-size: 0.95rem;
   letter-spacing: 2px;
-  z-index: 50;
+  z-index: 999;
   opacity: 1;
   pointer-events: none;
+  white-space: nowrap;
 }
 @media (max-width: 768px) {
   .hero {
