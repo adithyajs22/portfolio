@@ -4,6 +4,7 @@ import HomeSection from './components/HomeSection/HomeSection'
 import Navbar from './components/Navbar/Navbar'
 import SkillSection from './components/SkillSection/SkillSection'
 import ProjectSection from './components/ProjectSection/ProjectSection'
+import Achievements from './components/Achievements/Achievements'
 import ContactSection from './components/ContactSection/ContactSection'
 import WhatIKnowSection from './components/WhatIknow/WhatIknow'
 
@@ -26,6 +27,7 @@ useEffect(() => {
        <SkillSection id = "skills"/>
        <WhatIKnowSection id="what-i-know"/>
        <ProjectSection id = "projects"/>
+       <Achievements id = "achievements"/>
        <ContactSection id = "contacts"/>
      
       

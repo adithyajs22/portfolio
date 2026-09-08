@@ -28,6 +28,7 @@ const projects = [
   },
   {
     title: 'Gym Management System',
+    header: 'Mini project',
     description: 'Backend-heavy dashboard to manage gym clients, payments, and plans.',
     tech: ['HTML', 'CSS', 'PHP', 'MySQL'],
     github: '',
