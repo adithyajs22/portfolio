@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
+  overflow: visible;
   padding: 2rem;
   min-height: 90vh;
   background-color: var(--bg-color);
@@ -127,15 +128,16 @@
 
 .right-floating-label {
   position: absolute;
-  right: -40px;
+  right: 8px;
   top: 50%;
-  transform: rotate(90deg) translateY(-50%);
-  transform-origin: right center;
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: center;
   color: #ff5f5f;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   letter-spacing: 2px;
-  z-index: 3;
-  opacity: 0.9;
+  z-index: 50;
+  opacity: 1;
+  pointer-events: none;
 }
 @media (max-width: 768px) {
   .hero {
