@@ -1,0 +1,59 @@
+/* Achievements / Certifications styles */
+.achievements-section {
+	padding: 2.5rem 1.5rem;
+	max-width: 900px;
+	margin: 0 auto;
+	color: #eaeaea;
+}
+
+.achievements-section h2 {
+	font-size: 2rem;
+	margin-bottom: 1.25rem;
+	color: #ff6b6b;
+}
+
+.certifications h3 {
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+	color: #ffd6a5;
+}
+
+.certification {
+	background: linear-gradient(180deg, #0f0f0f, #151515);
+	border: 1px solid rgba(255,255,255,0.04);
+	padding: 1rem;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+.certification-name {
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+	color: #fff;
+}
+
+.cert-meta {
+	font-size: 0.9rem;
+	color: #cfcfcf;
+	margin-bottom: 0.6rem;
+}
+
+.cert-link {
+	display: inline-block;
+	text-decoration: none;
+	color: #0d0d0d;
+	background: #7ecfff;
+	padding: 0.45rem 0.8rem;
+	border-radius: 6px;
+	font-weight: 700;
+	transition: opacity 0.15s ease;
+}
+
+.cert-link:hover {
+	opacity: 0.9;
+}
+
+@media (max-width: 480px) {
+	.achievements-section { padding: 1.5rem 1rem; }
+	.certifications h3 { font-size: 1.05rem; }
+}
