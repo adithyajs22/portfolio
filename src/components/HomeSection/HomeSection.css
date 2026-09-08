@@ -129,10 +129,10 @@
 .right-floating-label {
   position: absolute;
   top: 50%;
-  transform: rotate(-90deg) translateY(-50%);
+  transform: translateY(-50%);
   transform-origin: center;
   color: #ff5f5f;
-  font-size: 0.85rem;
+  font-size: 0.65rem;
   letter-spacing: 1px;
   z-index: 50;
   opacity: 0.95;
