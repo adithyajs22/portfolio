@@ -128,7 +128,6 @@
 
 .right-floating-label {
   position: absolute;
-  right: -120px; /* push farther outside so it doesn't overlay content */
   top: 50%;
   transform: rotate(-90deg) translateY(-50%);
   transform-origin: center;
