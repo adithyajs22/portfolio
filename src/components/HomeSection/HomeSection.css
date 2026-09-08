@@ -128,15 +128,15 @@
 
 .right-floating-label {
   position: absolute;
-  right: -56px;
+  right: -120px; /* push farther outside so it doesn't overlay content */
   top: 50%;
-  transform: rotate(90deg) translateY(-50%);
+  transform: rotate(-90deg) translateY(-50%);
   transform-origin: center;
   color: #ff5f5f;
-  font-size: 0.95rem;
-  letter-spacing: 2px;
-  z-index: 999;
-  opacity: 1;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  z-index: 50;
+  opacity: 0.95;
   pointer-events: none;
   white-space: nowrap;
 }
