@@ -12,7 +12,7 @@ const HomeSection = () => {
       <h2>I'm <span>Adithya J S</span></h2>
       <h1  className="right-floating-label"><strong>Frontend Developer & Tech Enthusiast</strong> </h1>
       <p>I'm a Computer Science Graduate & Frontend Engineer. </p>
-    <p> I design and build modern, highly accessible web applications using React and Vite, with a relentless focus on clean code and usability. Actively seeking full-time roles and open to new opportunities.</p>
+      <p> I design and build modern, highly accessible web applications using React and Vite, with a relentless focus on clean code and usability. Actively seeking full-time roles and open to new opportunities.</p>
       <div className='herocontent'>
        <a className="btn-outlined" href="/resume.pdf" target="_blank" >My Resume</a>
        <a className="btn-filled" href="#contacts">Got a project?</a>
