@@ -51,10 +51,9 @@ const certifications = [
 const Achievements = () => {
 	return (
 		<section id="achievements" className="achievements-section">
-			<h2>Achievements</h2>
+			<h2>Certifications</h2>
 
 			<div className="certifications">
-				<h3>Certifications</h3>
 				{certifications.map((c, i) => (
 					<div className="certification" key={i}>
 						<div className="certification-name">

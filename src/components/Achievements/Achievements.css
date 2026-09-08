@@ -41,8 +41,8 @@
 .cert-link {
 	display: inline-block;
 	text-decoration: none;
-	color: #0d0d0d;
-	background: #7ecfff;
+	color:  #7ecfff;;
+    background-color:  #7ecfff;;
 	padding: 0.45rem 0.8rem;
 	border-radius: 6px;
 	font-weight: 700;
@@ -50,7 +50,8 @@
 }
 
 .cert-link:hover {
-	opacity: 0.9;
+  background-color: #7ecfff;
+  color: #0d0d0d;
 }
 
 @media (max-width: 480px) {
