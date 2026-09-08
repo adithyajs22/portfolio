@@ -127,17 +127,16 @@
 }
 
 .right-floating-label {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  transform-origin: center;
-  color: #ff5f5f;
-  font-size: 0.65rem;
-  letter-spacing: 1px;
-  z-index: 50;
-  opacity: 0.95;
-  pointer-events: none;
-  white-space: nowrap;
+  display: none; /* hidden now that subtitle is inline */
+}
+
+/* subtitle placed under the main name */
+.hero-content .subtitle {
+  font-size: 1.05rem;
+  color: var(--accent-color);
+  margin: 0.25rem 0 1rem 0;
+  font-weight: 700;
+  letter-spacing: 0.02em;
 }
 @media (max-width: 768px) {
   .hero {
