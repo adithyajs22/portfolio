@@ -127,13 +127,13 @@
 }
 
 .right-floating-label {
-  display: none; /* hidden now that subtitle is inline */
+  display: none; 
 }
 
-/* subtitle placed under the main name */
+
 .hero-content .subtitle {
-  font-size: 1.05rem;
-  color: var(--accent-color);
+  font-size: 1.15rem;
+  color:#f35858;
   margin: 0.25rem 0 1rem 0;
   font-weight: 700;
   letter-spacing: 0.02em;
