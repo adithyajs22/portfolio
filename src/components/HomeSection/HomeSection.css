@@ -13,6 +13,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  position: relative;
   padding: 2rem;
   min-height: 90vh;
   background-color: var(--bg-color);
@@ -69,6 +70,7 @@
   color: var(--muted-color);
   line-height: 1.6;
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 .herocontent {
@@ -124,8 +126,8 @@
 }
 
 .right-floating-label {
-  position: fixed;
-  right: 0;
+  position: absolute;
+  right: -40px;
   top: 50%;
   transform: rotate(90deg) translateY(-50%);
   transform-origin: right center;
@@ -133,7 +135,7 @@
   font-size: 0.9rem;
   letter-spacing: 2px;
   z-index: 3;
-  opacity: 0.4;
+  opacity: 0.9;
 }
 @media (max-width: 768px) {
   .hero {
