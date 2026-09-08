@@ -7,14 +7,6 @@ const projects = [
     live:  'https://echosavvy.vercel.app/', 
   },
   {
-    title: 'Netflix Clone',
-    description: 'Movie streaming UI with search, trending, and category filtering using TMDB API.The live demo does not include images or posters due to the absence of API integration.',
-    tech: ['React', 'Axios', 'TMDB API'],
-    github:'https://github.com/adithyajs22/NetflixClone/tree/main/src',
-    live:"https://netflix-clone-adithya-jss-projects.vercel.app/"
-
-  },
-  {
     title: 'ToDo App',
     description: 'Simple and elegant ToDo list app with task management and local storage.',
     tech: ['HTML', 'CSS', 'JavaScript'],
@@ -28,6 +20,12 @@ const projects = [
     github: 'https://github.com/adithyajs22/githubProfile',
     live: 'https://github-profile-checker-black.vercel.app/',
   },
+   {
+    title: 'Netflix Clone',
+    description: 'Movie streaming UI with search, trending, and category filtering using TMDB API.The live demo does not include images or posters due to the absence of API integration.',
+    tech: ['React', 'Axios', 'TMDB API'],
+    github:'https://github.com/adithyajs22/NetflixClone/tree/main/src',
+  },
   {
     title: 'Gym Management System',
     description: 'Backend-heavy dashboard to manage gym clients, payments, and plans.',
@@ -39,15 +37,35 @@ const projects = [
     description: 'Developed a responsive and user-friendly college website for College of Engineering Perumon,featuring adaptive design for mobile and desktop devices ',
     tech: ['HTML', 'CSS'],
     github: 'https://github.com/adithyajs22/College_website',
-    live: 'https://adithyajs22.github.io/College_website/',
+    
   },
-  {
-    title: 'Portfolio Website',
-    description: 'Personal portfolio built using React and Vite, fully responsive and accessible.',
-    tech: ['React', 'Vite', 'CSS Modules'],
-    github: 'https://github.com/adithyajs22/portfolio',
-    live: 'https://adithyajs.vercel.app/',
-  }
+ {
+   title: 'Cora AI',
+   header: 'Final Year Project',
+   description: 'Cora AI is an AI-powered desktop assistant that understands on-screen context and user activity to provide intelligent, real-time assistance using OCR, OS monitoring, and Large Language Models.',
+    tech: [
+    'Python',
+    'PyQt6',
+    'Google Gemini',
+    'OpenAI',
+    'Ollama',
+    'Tesseract OCR',
+    'OpenCV',
+    'MSS',
+    'PyAutoGUI',
+    'PyGetWindow',
+    'SpeechRecognition',
+    'PyAudio',
+    'Pillow',
+    'PyPDF',
+    'PDF2Image',
+    'PyStray',
+    'HTTP Server',
+    'Multithreading'
+],
+    github:'https://github.com/adithyajs22/project_cora',
+  },
+
 ];
 
 export default projects;

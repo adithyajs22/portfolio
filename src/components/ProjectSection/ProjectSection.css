@@ -43,6 +43,15 @@
   font-size: 1.4rem;
 }
 
+.project-header {
+  margin: 0 0 0.4rem 0;
+  color: #ffd6a5;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+}
+
 .card-content p {
   font-size: 0.95rem;
   line-height: 1.6;
